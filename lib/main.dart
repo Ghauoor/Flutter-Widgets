@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets/widgets/about_dialog_widget.dart';
+import 'package:widgets/widgets/aboutListTile_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,12 +13,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Widgets',
       home: Scaffold(
+        backgroundColor: const Color(0xff132030),
         appBar: AppBar(
+          centerTitle: true,
+          backgroundColor: const Color(0xFF434243),
           elevation: 0.0,
-          // backgroundColor: Colors.amberAccent,
           title: const Text('This is Widget Learnig Project'),
         ),
-        body: const AbotDialog(),
+        body: const AboutlistTile(),
       ),
     );
   }
