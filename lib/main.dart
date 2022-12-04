@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets/widgets/list_view.dart';
+import 'package:widgets/widgets/about_dialog_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
           // backgroundColor: Colors.amberAccent,
           title: const Text('This is Widget Learnig Project'),
         ),
-        body: const ListViewBuilderWidget(),
+        body: const AbotDialog(),
       ),
     );
   }
