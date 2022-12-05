@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets/widgets/aboutListTile_widget.dart';
-import 'package:widgets/widgets/absorb_pointer_widget.dart';
+import 'package:widgets/widgets/align_Widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +20,7 @@ class MyApp extends StatelessWidget {
           elevation: 0.0,
           title: const Text('This is Widget Learnig Project'),
         ),
-        body: const AbsorbPointerWidget(),
+        body: const AlignWidget(),
       ),
     );
   }
