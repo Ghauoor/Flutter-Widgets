@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets/widgets/animated_textstyle_widget.dart';
+import 'package:widgets/widgets/animated_icon_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
           elevation: 0.0,
           title: const Text('This is Widget Learnig Project'),
         ),
-        body: const AnimatedTextStyleWidget(),
+        body: const AnimatedIconWidget(),
       ),
     );
   }
