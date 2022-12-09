@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widgets/widgets/animated_physical_model_widget.dart';
+
+import 'widgets/animated_positioned_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
           elevation: 0.0,
           title: const Text('This is Widget Learnig Project'),
         ),
-        body: const AnimatedPhysicalModelWidget(),
+        body: const AnimatedPositionedWidget(),
       ),
     );
   }
