@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets/widgets/autocomplete_widget.dart';
+import 'package:widgets/widgets/backdrop_filter_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
           elevation: 0.0,
           title: const Text('This is Widget Learnig Project'),
         ),
-        body: const AutocompleteWidget(),
+        body: const BackdropFilterWidget(),
       ),
     );
   }
