@@ -23,6 +23,9 @@ class _CheckboxListTileWidgetState extends State<CheckboxListTileWidget> {
         },
         activeColor: Colors.amber,
         checkColor: Colors.white,
+        subtitle: const Text('This is a Subtitle'),
+        controlAffinity: ListTileControlAffinity.leading,
+        tristate: true,
       ),
     );
   }
