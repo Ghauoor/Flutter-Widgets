@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:widgets/widgets/circle_avatar_widget.dart';
-import 'package:widgets/widgets/circular_progress_indicator.dart';
+import 'widgets/clip_oval_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +21,7 @@ class MyApp extends StatelessWidget {
           elevation: 0.0,
           title: const Text('This is Widget Learnig Project'),
         ),
-        body: const CircularProgressindicatorWidget(),
+        body: const ClipOvalWidget(),
       ),
     );
   }
