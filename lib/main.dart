@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets/widgets/cupertino_app_widget.dart';
+import 'package:widgets/widgets/cupertino_activityIndicator_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,17 +10,17 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Flutter Widgets',
       home: Scaffold(
-        backgroundColor: Color(0xff132030),
-        // appBar: AppBar(
-        //   centerTitle: true,
-        //   backgroundColor: const Color(0xFF434243),
-        //   elevation: 0.0,
-        //   title: const Text('This is Widget Learnig Project'),
-        // ),
-        body: CupertinoAPPWidget(),
+        backgroundColor: const Color(0xff132030),
+        appBar: AppBar(
+          centerTitle: true,
+          backgroundColor: const Color(0xFF434243),
+          elevation: 0.0,
+          title: const Text('This is Widget Learnig Project'),
+        ),
+        body: const CupertinoActivityIndicatorWidget(),
       ),
     );
   }
