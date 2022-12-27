@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:widgets/widgets/cupertino_datepicker_widget.dart';
+import 'package:widgets/widgets/cupertino_pageroute_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           elevation: 0.0,
           title: const Text('This is Widget Learnig Project'),
         ),
-        body: const CupertinoDatePickerWidget(),
+        body: const CupertinoPageRouteWidget(),
       ),
     );
   }
