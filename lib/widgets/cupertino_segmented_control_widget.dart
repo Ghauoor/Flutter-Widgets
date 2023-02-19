@@ -22,9 +22,30 @@ class _CupertinoSegmentedControlWidgetState
           ),
           CupertinoSegmentedControl(
             children: {
-              'Flutter': Container(color: currentText == 'Flutter' ? Colors.orangeAccent[100] : Colors.white),
-              'Android Native': Container(),
-              'React': Container(),
+              'Flutter': Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(10),
+                child: const Text('Flutter'),
+                color: currentText == 'Flutter'
+                    ? Colors.orangeAccent[100]
+                    : Colors.white,
+              ),
+              'Android Native': Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(10),
+                child: const Text('Android Native'),
+                color: currentText == 'Android Native'
+                    ? Colors.orangeAccent[100]
+                    : Colors.white,
+              ),
+              'React': Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(10),
+                child: const Text('React'),
+                color: currentText == 'React'
+                    ? Colors.orangeAccent[100]
+                    : Colors.white,
+              ),
             },
             onValueChanged: (String value) {
               setState(() {
